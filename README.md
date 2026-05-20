@@ -5,11 +5,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 
-The most comprehensive Python wrapper for the **Seedance 2.0 API** (developed by ByteDance), delivered via [muapi.ai](https://muapi.ai). Generate cinematic, high-fidelity AI videos from text prompts and static images with the world's most advanced video generation model.
+The most comprehensive Python wrapper for the **Seedance 2.0 API** (developed by ByteDance), delivered via [muapi.ai](https://muapi.ai). Generate cinematic, high-fidelity AI videos from text prompts and static images — with industry-leading **realistic human face generation** — using the world's most advanced video generation model.
 
 Join the subreddit https://www.reddit.com/r/Seedance_2_API/ for discussions on using Seedance 2 api
 
 Here is a comprehensive guide on using Seedance 2.0 API https://medium.com/@anilmatcha/seedance-2-0-api-complete-developer-guide-text-to-video-image-to-video-python-sdk-1479f5e5491f
+
+> 🔥 **Coming Soon:** Seedance 2.1 and Seedance 2.0 Mini are reportedly on the way — Seedance 2.1 brings a ~20% quality improvement over 2.0, while Seedance 2.0 Mini is expected to outperform 2.0 Fast at a fraction of the cost (pricing as low as ~$0.073/sec). ByteDance is moving fast. Discuss on [r/Seedance_2_API](https://www.reddit.com/r/Seedance_2_API/).
 
 > 🌊 **Also explore these top AI video models:**
 > - 🐎 [HappyHorse 1.0 API](https://github.com/Anil-matcha/HappyHorse-1.0-API) — Alibaba's #1 ranked model (1392 Elo I2V) with native 1080p & integrated audio
@@ -19,13 +21,16 @@ Here is a comprehensive guide on using Seedance 2.0 API https://medium.com/@anil
 
 Seedance 2.0 is the industry-leading **Sora alternative** developed by ByteDance, offering unparalleled video quality and motion consistency.
 
-- **Cinematic Quality**: Generate 2K resolution AI videos with realistic physics and lighting.
+- **Cinematic Quality**: Generate 1080p AI videos with realistic physics and lighting.
+- **Realistic Human Faces**: Best-in-class facial fidelity — natural expressions, skin detail, and identity consistency across frames.
+- **Less Censorship**: More permissive content policy compared to other AI video models, enabling a wider range of creative use cases.
 - **Superior Motion Control**: Advanced camera movement and character consistency for professional results.
 - **Multimodal API**: Supports Text-to-Video (T2V), Image-to-Video (I2V), and Video Extension.
 - **Developer-First**: Fast processing via the MuAPI infrastructure with a simple Python SDK.
 
 ## 🌟 Key Features of Seedance 2.0 API
 
+- ✅ **Realistic Human Face Generation**: Produces natural, high-fidelity human faces with accurate expressions, skin texture, and identity consistency — no uncanny valley.
 - ✅ **Seedance 2.0 Text-to-Video (T2V)**: Transform complex descriptive prompts into stunning AI video clips.
 - ✅ **Seedance 2.0 Image-to-Video (I2V)**: Animate any static image with precise motion control using `images_list`.
 - ✅ **Seedance 2.0 Omni-Reference**: Condition a video on any combination of image, video, and audio references in one request.
@@ -35,7 +40,8 @@ Seedance 2.0 is the industry-leading **Sora alternative** developed by ByteDance
 - ✅ **Seedance 2 VIP 1080p Text-to-Video**: Generate full 1080p videos from text with VIP priority queue and low censorship. *(Coming Soon)*
 - ✅ **Seedance 2 VIP 1080p Image-to-Video**: Animate images to full 1080p with VIP priority queue and low censorship. *(Coming Soon)*
 - ✅ **Video Extension**: Seamlessly extend existing clips while maintaining consistent style and characters.
-- ✅ **High-Resolution Output**: Support for `basic` and `high` (2K) quality settings.
+- ✅ **High-Resolution Output**: Support for `basic` and `high` (1080p) quality settings.
+- ✅ **Less Censorship**: More permissive content policy than competing models — broader creative freedom out of the box.
 - ✅ **Flexible Aspect Ratios**: Optimized for `16:9`, `9:16` (TikTok/Reels), `4:3`, and `3:4`.
 
 ---
