@@ -17,6 +17,13 @@ Here is a comprehensive guide on using Seedance 2.0 API https://medium.com/@anil
 > - 🐎 [HappyHorse 1.0 API](https://github.com/Anil-matcha/HappyHorse-1.0-API) — Alibaba's #1 ranked model (1392 Elo I2V) with native 1080p & integrated audio
 > - 🎬 [Veo 4 API](https://github.com/Anil-matcha/Veo-4-API) — Google DeepMind's native 4K model with audio, character consistency & camera controls
 
+## Related Projects
+
+- [seedance-2.0-watermark-remover](https://github.com/SamurAIGPT/seedance-2.0-watermark-remover) — Remove watermarks from your Seedance 2 generated videos
+- [seedance-2-generator](https://github.com/SamurAIGPT/seedance-2-generator) — Ready-made Next.js SaaS built on Seedance 2
+- [seedance2-comfyui](https://github.com/Anil-matcha/seedance2-comfyui) — Run Seedance 2 inside ComfyUI
+- [n8n-nodes-seedance2](https://github.com/Anil-matcha/n8n-nodes-seedance2) — Automate Seedance 2 in n8n workflows
+
 ## 🚀 Why Use Seedance 2.0 API?
 
 Seedance 2.0 is the industry-leading **Sora alternative** developed by ByteDance, offering unparalleled video quality and motion consistency.
