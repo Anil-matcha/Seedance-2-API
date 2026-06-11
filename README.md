@@ -24,6 +24,8 @@ Here is a comprehensive guide on using Seedance 2.0 API https://medium.com/@anil
 - [seedance2-comfyui](https://github.com/Anil-matcha/seedance2-comfyui) — Run Seedance 2 inside ComfyUI
 - [n8n-nodes-seedance2](https://github.com/Anil-matcha/n8n-nodes-seedance2) — Automate Seedance 2 in n8n workflows
 
+- [Awesome Claude Fable 5](https://github.com/Anil-matcha/awesome-claude-fable-5) — Curated real-world use cases, tutorials, and benchmarks for Claude Fable 5 — access exclusively via MuAPI
+
 ## 🚀 Why Use Seedance 2.0 API?
 
 Seedance 2.0 is the industry-leading **Sora alternative** developed by ByteDance, offering unparalleled video quality and motion consistency.
