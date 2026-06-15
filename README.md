@@ -1,17 +1,17 @@
-# Seedance 2.0 API: Python Wrapper for ByteDance's AI Video Generator
+# Seedance 2.0 & Seedance 2 Mini API: Python Wrapper for ByteDance's AI Video Generator
 
 [![PyPI version](https://img.shields.io/pypi/v/seedance-2-api.svg)](https://pypi.org/project/seedance-2-api/)
 [![GitHub stars](https://img.shields.io/github/stars/Anil-matcha/Seedance-2.0-API.svg)](https://github.com/Anil-matcha/Seedance-2.0-API/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 
-The most comprehensive Python wrapper for the **Seedance 2.0 API** (developed by ByteDance), delivered via [muapi.ai](https://muapi.ai). Generate cinematic, high-fidelity AI videos from text prompts and static images — with industry-leading **realistic human face generation** — using the world's most advanced video generation model.
+The most comprehensive Python wrapper for the **Seedance 2.0 API** and **Seedance 2 Mini API** (developed by ByteDance), delivered via [muapi.ai](https://muapi.ai). Generate cinematic, high-fidelity AI videos from text prompts and static images — with industry-leading **realistic human face generation** — using the world's most advanced video generation model. Use Seedance 2.0 for maximum quality or **Seedance 2 Mini** for fast, affordable generation at a fraction of the cost.
 
 Join the subreddit https://www.reddit.com/r/Seedance_2_API/ for discussions on using Seedance 2 api
 
 Here is a comprehensive guide on using Seedance 2.0 API https://medium.com/@anilmatcha/seedance-2-0-api-complete-developer-guide-text-to-video-image-to-video-python-sdk-1479f5e5491f
 
-> 🔥 **Coming Soon:** Seedance 2.1 and Seedance 2.0 Mini are reportedly on the way — Seedance 2.1 brings a ~20% quality improvement over 2.0, while Seedance 2.0 Mini is expected to outperform 2.0 Fast at a fraction of the cost (pricing as low as ~$0.073/sec). ByteDance is moving fast. Discuss on [r/Seedance_2_API](https://www.reddit.com/r/Seedance_2_API/).
+> ✅ **Now Available: Seedance 2 Mini** — ByteDance's new lightweight model that outperforms Seedance 2.0 Fast at a fraction of the cost (pricing as low as ~$0.073/sec). Use `text_to_video_mini()` / `image_to_video_mini()` in the SDK, or hit the `/seedance-2-mini-t2v` and `/seedance-2-mini-i2v` endpoints directly. Seedance 2.1 (~20% quality improvement over 2.0) is also on the way. Discuss on [r/Seedance_2_API](https://www.reddit.com/r/Seedance_2_API/).
 
 > 🌊 **Also explore these top AI video models:**
 > - 🐎 [HappyHorse 1.0 API](https://github.com/Anil-matcha/HappyHorse-1.0-API) — Alibaba's #1 ranked model (1392 Elo I2V) with native 1080p & integrated audio
@@ -35,6 +35,7 @@ Seedance 2.0 is the industry-leading **Sora alternative** developed by ByteDance
 - **Less Censorship**: More permissive content policy compared to other AI video models, enabling a wider range of creative use cases.
 - **Superior Motion Control**: Advanced camera movement and character consistency for professional results.
 - **Multimodal API**: Supports Text-to-Video (T2V), Image-to-Video (I2V), and Video Extension.
+- **Seedance 2 Mini**: ByteDance's newest lightweight model — outperforms Seedance 2.0 Fast at ~$0.073/sec with dramatically lower cost. Ideal for prototyping, high-volume pipelines, and latency-sensitive apps.
 - **Developer-First**: Fast processing via the MuAPI infrastructure with a simple Python SDK.
 
 ## 🌟 Key Features of Seedance 2.0 API
@@ -46,6 +47,8 @@ Seedance 2.0 is the industry-leading **Sora alternative** developed by ByteDance
 - ✅ **Seedance 2.0 Character**: Generate a multi-panel character sheet (front, back, side, action pose, expressions) from 1–3 reference photos. Use `@character:<id>` inline in any prompt, or pass the sheet directly as an anchor image for tighter face fidelity via `consistent_video()`.
 - ✅ **Seedance 2.0 Video-Edit**: Edit existing videos using text prompts and reference images for stylized results.
 - ✅ **File Upload**: Directly upload local images and videos using the `upload_file` method, supporting seamless use in generation tasks.
+- ✅ **Seedance 2 Mini Text-to-Video**: Fast, affordable T2V using `text_to_video_mini()` — outperforms Seedance 2.0 Fast at ~$0.073/sec.
+- ✅ **Seedance 2 Mini Image-to-Video**: Animate images quickly and cheaply using `image_to_video_mini()` — great for high-volume workflows.
 - ✅ **Seedance 2 VIP 1080p Text-to-Video**: Generate full 1080p videos from text with VIP priority queue and low censorship. *(Coming Soon)*
 - ✅ **Seedance 2 VIP 1080p Image-to-Video**: Animate images to full 1080p with VIP priority queue and low censorship. *(Coming Soon)*
 - ✅ **Video Extension**: Seamlessly extend existing clips while maintaining consistent style and characters.
@@ -221,6 +224,62 @@ curl --location --request POST "https://api.muapi.ai/api/v1/seedance-v2.0-video-
   }'
 ```
 
+### 6. Seedance 2 Mini Text-to-Video (T2V)
+**Endpoint**: `POST https://api.muapi.ai/api/v1/seedance-2-mini-t2v`
+
+ByteDance's lightweight Seedance 2 Mini model — outperforms Seedance 2.0 Fast at a fraction of the cost (~$0.073/sec). Supports the same prompt format as Seedance 2.0.
+
+```bash
+curl --location --request POST "https://api.muapi.ai/api/v1/seedance-2-mini-t2v" \
+  --header "Content-Type: application/json" \
+  --header "x-api-key: YOUR_API_KEY" \
+  --data-raw '{
+      "prompt": "A golden retriever running on a sunny beach, slow motion",
+      "aspect_ratio": "16:9",
+      "duration": 5
+  }'
+```
+
+**Python SDK:**
+```python
+submission = api.text_to_video_mini(
+    prompt="A golden retriever running on a sunny beach, slow motion",
+    aspect_ratio="16:9",
+    duration=5,
+)
+result = api.wait_for_completion(submission["request_id"])
+print(f"Seedance 2 Mini video: {result['outputs'][0]}")
+```
+
+### 7. Seedance 2 Mini Image-to-Video (I2V)
+**Endpoint**: `POST https://api.muapi.ai/api/v1/seedance-2-mini-i2v`
+
+Animate any image using Seedance 2 Mini — fast, affordable, and ideal for high-volume pipelines.
+
+```bash
+curl --location --request POST "https://api.muapi.ai/api/v1/seedance-2-mini-i2v" \
+  --header "Content-Type: application/json" \
+  --header "x-api-key: YOUR_API_KEY" \
+  --data-raw '{
+      "prompt": "The waves crash gently onto the shore",
+      "images_list": ["https://example.com/beach.jpg"],
+      "aspect_ratio": "16:9",
+      "duration": 5
+  }'
+```
+
+**Python SDK:**
+```python
+submission = api.image_to_video_mini(
+    prompt="The waves crash gently onto the shore",
+    images_list=["https://example.com/beach.jpg"],
+    aspect_ratio="16:9",
+    duration=5,
+)
+result = api.wait_for_completion(submission["request_id"])
+print(f"Seedance 2 Mini video: {result['outputs'][0]}")
+```
+
 ---
 
 ## 🎭 Character Consistency Workflow
@@ -300,6 +359,8 @@ For a comprehensive walkthrough, check out the **[Seedance 2.0 API: Complete Dev
 | `video_edit` | `prompt`, `video_urls`, `images_list`, `aspect_ratio`, `quality`, `remove_watermark` | Edit existing videos with prompts and images. |
 | `watermark_remover`| `video_url` | Remove MuAPI watermark from a Seedance video. |
 | `watermark_remover_pro`| `video_url` | Remove MuAPI watermark from a Seedance video (Pro version). |
+| `text_to_video_mini` | `prompt`, `aspect_ratio`, `duration` | **Seedance 2 Mini** T2V — outperforms 2.0 Fast at ~$0.073/sec. |
+| `image_to_video_mini` | `prompt`, `images_list`, `aspect_ratio`, `duration` | **Seedance 2 Mini** I2V — fast, affordable image animation. |
 | `text_to_video_480p`| `prompt`, `aspect_ratio`, `duration`, `quality` | Generate a 480p video from text (faster/cheaper). |
 | `image_to_video_480p`| `prompt`, `images_list`, `aspect_ratio`, `duration`, `quality` | Generate a 480p video from an image (faster/cheaper). |
 | `extend_video` | `request_id`, `prompt`, `duration`, `quality` | Extend an existing Seedance video segment. |
@@ -324,4 +385,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Keywords**: Seedance 2.0 API, ByteDance Seedance, AI Video Generator, Text-to-Video AI, Image-to-Video API, Seedance Python SDK, Seedance V2 API, Sora Alternative, MuAPI, Video Generation API, Cinematic AI Video, AI Video Creation, ByteDance Video AI, Seedance API Documentation, Seedance I2V, Seedance T2V, AI Movie Generator, AI Animation API, Python Video API, Seedance 2.0 Tutorial.
+**Keywords**: Seedance 2.0 API, Seedance 2 Mini API, Seedance 2 Mini, ByteDance Seedance, AI Video Generator, Text-to-Video AI, Image-to-Video API, Seedance Python SDK, Seedance V2 API, Seedance Mini, Seedance 2 Mini Python, Seedance 2 Mini Text-to-Video, Seedance 2 Mini Image-to-Video, Sora Alternative, MuAPI, Video Generation API, Cinematic AI Video, AI Video Creation, ByteDance Video AI, Seedance API Documentation, Seedance I2V, Seedance T2V, AI Movie Generator, AI Animation API, Python Video API, Seedance 2.0 Tutorial.
