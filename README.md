@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 
-The most comprehensive Python wrapper for the **Seedance 2.0 API** and **Seedance 2 Mini API** (developed by ByteDance), delivered via [muapi.ai](https://muapi.ai). Generate cinematic, high-fidelity AI videos from text prompts and static images — with industry-leading **realistic human face generation** — using the world's most advanced video generation model. Use Seedance 2.0 for maximum quality or **Seedance 2 Mini** for fast, affordable generation at a fraction of the cost.
+The most comprehensive Python wrapper for the **Seedance 2.0 API** and **Seedance 2 Mini API** (developed by ByteDance), delivered via [muapi.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api). Generate cinematic, high-fidelity AI videos from text prompts and static images — with industry-leading **realistic human face generation** — using the world's most advanced video generation model. Use Seedance 2.0 for maximum quality or **Seedance 2 Mini** for fast, affordable generation at a fraction of the cost.
 
 Join the subreddit https://www.reddit.com/r/Seedance_2_API/ for discussions on using Seedance 2 api
 
@@ -77,7 +77,7 @@ pip install -r requirements.txt
 ```
 
 ### Configuration
-Create a `.env` file in the root directory and add your [MuAPI](https://muapi.ai) API key:
+Create a `.env` file in the root directory and add your [MuAPI](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api) API key:
 ```env
 MUAPI_API_KEY=your_muapi_api_key_here
 ```
@@ -376,9 +376,9 @@ For a comprehensive walkthrough, check out the **[Seedance 2.0 API: Complete Dev
 
 ## 🔗 Official Resources
 - **Developer Guide**: [Seedance 2.0 API: Complete Tutorial](https://medium.com/@anilmatcha/seedance-2-0-api-complete-developer-guide-text-to-video-image-to-video-python-sdk-1479f5e5491f)
-- **Playground**: [Seedance 2.0 I2V Playground](https://muapi.ai/playground/seedance-v2.0-i2v)
-- **Extension Tool**: [Seedance 2.0 Extend Playground](https://muapi.ai/playground/seedance-v2.0-extend)
-- **API Provider**: [MuAPI.ai](https://muapi.ai)
+- **Playground**: [Seedance 2.0 I2V Playground](https://muapi.ai/playground/seedance-v2.0-i2v?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
+- **Extension Tool**: [Seedance 2.0 Extend Playground](https://muapi.ai/playground/seedance-v2.0-extend?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
+- **API Provider**: [MuAPI.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
 
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
