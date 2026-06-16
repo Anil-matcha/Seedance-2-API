@@ -1,5 +1,8 @@
 # Seedance 2.0 & Seedance 2 Mini API: Python Wrapper for ByteDance's AI Video Generator
 
+[![Powered by MuAPI](https://img.shields.io/badge/Powered%20by-MuAPI-6366f1?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMSAxNHYtNGgtMnYtMmg0djZoLTJ6bTAtOFY2aDJ2MmgtMnoiLz48L3N2Zz4=)](https://muapi.ai?utm_source=github&utm_medium=badge&utm_campaign=seedance-2-api)
+
+
 [![PyPI version](https://img.shields.io/pypi/v/seedance-2-api.svg)](https://pypi.org/project/seedance-2-api/)
 [![GitHub stars](https://img.shields.io/github/stars/Anil-matcha/Seedance-2.0-API.svg)](https://github.com/Anil-matcha/Seedance-2.0-API/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
