@@ -14,7 +14,10 @@ Join the subreddit https://www.reddit.com/r/Seedance_2_API/ for discussions on u
 
 Here is a comprehensive guide on using Seedance 2.0 API https://medium.com/@anilmatcha/seedance-2-0-api-complete-developer-guide-text-to-video-image-to-video-python-sdk-1479f5e5491f
 
-> ✅ **Now Available: Seedance 2 Mini** — ByteDance's new lightweight model that outperforms Seedance 2.0 Fast at a fraction of the cost (pricing as low as ~$0.073/sec). Use `text_to_video_mini()` / `image_to_video_mini()` in the SDK, or hit the `/seedance-2-mini-t2v` and `/seedance-2-mini-i2v` endpoints directly. Seedance 2.1 (~20% quality improvement over 2.0) is also on the way. Discuss on [r/Seedance_2_API](https://www.reddit.com/r/Seedance_2_API/).
+> ✅ **Now Available: Seedance 2 Mini** — ByteDance's new lightweight model that outperforms Seedance 2.0 Fast at a fraction of the cost (pricing as low as ~$0.073/sec). Use `text_to_video_mini()` / `image_to_video_mini()` in the SDK, or hit the `/seedance-2-mini-t2v` and `/seedance-2-mini-i2v` endpoints directly. Discuss on [r/Seedance_2_API](https://www.reddit.com/r/Seedance_2_API/).
+> - 🧪 Try **Seedance 2.0 Mini** now: [Image-to-Video Playground](https://muapi.ai/playground/seedance-2.0-mini-image-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api) · [Text-to-Video Playground](https://muapi.ai/playground/seedance-2.0-mini-text-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
+> - 🚀 **Seedance 2.1** (~20% quality lift, 1080p, native audio) coming soon: [I2V Playground](https://muapi.ai/playground/seedance-2.1-image-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api) · [T2V Playground](https://muapi.ai/playground/seedance-2.1-text-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
+> - 🌟 **Seedance 2.5** (native 4K, 16s clips, advanced audio) coming soon: [I2V Playground](https://muapi.ai/playground/seedance-2.5-image-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api) · [T2V Playground](https://muapi.ai/playground/seedance-2.5-text-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
 
 > 🌊 **Also explore these top AI video models:**
 > - 🐎 [HappyHorse 1.0 API](https://github.com/Anil-matcha/HappyHorse-1.0-API) — Alibaba's #1 ranked model (1392 Elo I2V) with native 1080p & integrated audio
@@ -380,8 +383,10 @@ For a comprehensive walkthrough, check out the **[Seedance 2.0 API: Complete Dev
 
 ## 🔗 Official Resources
 - **Developer Guide**: [Seedance 2.0 API: Complete Tutorial](https://medium.com/@anilmatcha/seedance-2-0-api-complete-developer-guide-text-to-video-image-to-video-python-sdk-1479f5e5491f)
-- **Playground**: [Seedance 2.0 I2V Playground](https://muapi.ai/playground/seedance-v2.0-i2v?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
-- **Extension Tool**: [Seedance 2.0 Extend Playground](https://muapi.ai/playground/seedance-v2.0-extend?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
+- **Playground — Seedance 2.0**: [I2V](https://muapi.ai/playground/seedance-v2.0-i2v?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api) · [Extend](https://muapi.ai/playground/seedance-v2.0-extend?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
+- **Playground — Seedance 2.0 Mini** *(coming soon)*: [I2V](https://muapi.ai/playground/seedance-2.0-mini-image-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api) · [T2V](https://muapi.ai/playground/seedance-2.0-mini-text-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
+- **Playground — Seedance 2.1** *(coming soon)*: [I2V](https://muapi.ai/playground/seedance-2.1-image-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api) · [T2V](https://muapi.ai/playground/seedance-2.1-text-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
+- **Playground — Seedance 2.5** *(coming soon)*: [I2V](https://muapi.ai/playground/seedance-2.5-image-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api) · [T2V](https://muapi.ai/playground/seedance-2.5-text-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
 - **API Provider**: [MuAPI.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
 
 ## 📄 License
