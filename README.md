@@ -1,4 +1,4 @@
-# Seedance 2.0 & Seedance 2 Mini API: Python Wrapper for ByteDance's AI Video Generator
+# Seedance 2.0 , Seedance 2.5 & Seedance 2 Mini API: Python Wrapper for ByteDance's AI Video Generator
 
 [![Powered by MuAPI](https://img.shields.io/badge/Powered%20by-MuAPI-6366f1?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMSAxNHYtNGgtMnYtMmg0djZoLTJ6bTAtOFY2aDJ2MmgtMnoiLz48L3N2Zz4=)](https://muapi.ai?utm_source=github&utm_medium=badge&utm_campaign=seedance-2-api)
 
@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 
-The most comprehensive Python wrapper for the **Seedance 2.0 API** and **Seedance 2 Mini API** (developed by ByteDance), delivered via [muapi.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api). Generate cinematic, high-fidelity AI videos from text prompts and static images — with industry-leading **realistic human face generation** — using the world's most advanced video generation model. Use Seedance 2.0 for maximum quality or **Seedance 2 Mini** for fast, affordable generation at a fraction of the cost.
+The most comprehensive Python wrapper for the **Seedance 2.0 API** , **Seedance 2.5 API** **Seedance 2 Mini API** (developed by ByteDance), delivered via [muapi.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api). Generate cinematic, high-fidelity AI videos from text prompts and static images — with industry-leading **realistic human face generation** — using the world's most advanced video generation model. Use Seedance 2.0 for maximum quality or **Seedance 2 Mini** for fast, affordable generation at a fraction of the cost.
 
 Join the subreddit https://www.reddit.com/r/Seedance_2_API/ for discussions on using Seedance 2 api
 
