@@ -17,11 +17,15 @@ Here is a comprehensive guide on using Seedance 2.0 API https://medium.com/@anil
 > ✅ **Now Available: Seedance 2 Mini** — ByteDance's new lightweight model that outperforms Seedance 2.0 Fast at a fraction of the cost (pricing as low as ~$0.073/sec). Use `text_to_video_mini()` / `image_to_video_mini()` in the SDK, or hit the `/seedance-2-mini-t2v` and `/seedance-2-mini-i2v` endpoints directly. Discuss on [r/Seedance_2_API](https://www.reddit.com/r/Seedance_2_API/).
 > - 🧪 Try **Seedance 2.0 Mini** now: [Image-to-Video Playground](https://muapi.ai/playground/seedance-2.0-mini-image-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api) · [Text-to-Video Playground](https://muapi.ai/playground/seedance-2.0-mini-text-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
 > - 🚀 **Seedance 2.1** (~20% quality lift, 1080p, native audio) coming soon: [I2V Playground](https://muapi.ai/playground/seedance-2.1-image-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api) · [T2V Playground](https://muapi.ai/playground/seedance-2.1-text-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
-> - 🌟 **Seedance 2.5** (native 4K, 16s clips, advanced audio) coming soon: [I2V Playground](https://muapi.ai/playground/seedance-2.5-image-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api) · [T2V Playground](https://muapi.ai/playground/seedance-2.5-text-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
+> - 🌟 **Seedance 2.5** (native 4K, 30s clips, native audio, 30 images/10 videos/10 audio references) is **live now**: [I2V Playground](https://muapi.ai/playground/seedance-2.5-image-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api) · [T2V Playground](https://muapi.ai/playground/seedance-2.5-text-to-video?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api) · [📺 Video Tutorial](https://www.youtube.com/watch?v=Uszlw7H4VP4)
 
 > 🌊 **Also explore these top AI video models:**
 > - 🐎 [HappyHorse 1.0 API](https://github.com/Anil-matcha/HappyHorse-1.0-API) — Alibaba's #1 ranked model (1392 Elo I2V) with native 1080p & integrated audio
 > - 🎬 [Veo 4 API](https://github.com/Anil-matcha/Veo-4-API) — Google DeepMind's native 4K model with audio, character consistency & camera controls
+
+## 📺 Video Tutorial
+
+[**How to Access Seedance 2.5 API (Step-by-Step Guide)**](https://www.youtube.com/watch?v=Uszlw7H4VP4) — a full walkthrough of getting an API key and making your first Seedance 2.5 call via [MuAPI](https://muapi.ai/seedance-2.5?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api).
 
 ## Related Projects
 
