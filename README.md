@@ -31,6 +31,7 @@ Here is a comprehensive guide on using Seedance 2.0 API https://medium.com/@anil
 
 ## Related Projects
 
+- [Wan-3.0-API](https://github.com/Anil-matcha/Wan-3.0-API) — Python SDK and MCP server for Wan 3.0-compatible text-to-video, image-to-video, and reference-to-video workflows.
 - [Seedance-2.5-API](https://github.com/SamurAIGPT/Seedance-2.5-API) — Python wrapper for the Seedance 2.5 API — text-to-video, image-to-video, character consistency
 
 - [seedance-2.0-watermark-remover](https://github.com/SamurAIGPT/seedance-2.0-watermark-remover) — Remove watermarks from your Seedance 2 generated videos
