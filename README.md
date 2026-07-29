@@ -31,6 +31,7 @@ Here is a comprehensive guide on using Seedance 2.0 API https://medium.com/@anil
 
 ## Related Projects
 
+- [MiniMax-H3-API](https://github.com/Anil-matcha/MiniMax-H3-API) — Python SDK for MiniMax H3 text-to-video, image-to-video, and first/last-frame video generation.
 - [Wan-3.0-API](https://github.com/Anil-matcha/Wan-3.0-API) — Python SDK and MCP server for Wan 3.0-compatible text-to-video, image-to-video, and reference-to-video workflows.
 - [Seedance-2.5-API](https://github.com/SamurAIGPT/Seedance-2.5-API) — Python wrapper for the Seedance 2.5 API — text-to-video, image-to-video, character consistency
 
