@@ -43,6 +43,7 @@ Here is a comprehensive guide on using Seedance 2.0 API https://medium.com/@anil
 - [seedance2.5-comfyui](https://github.com/Anil-matcha/seedance2.5-comfyui) — Native Seedance 2.5 ComfyUI custom nodes and example workflows
 - [n8n-nodes-seedance2](https://github.com/Anil-matcha/n8n-nodes-seedance2) — Automate Seedance 2 in n8n workflows
 - [awesome-seedance-2.5-api-prompts](https://github.com/Anil-matcha/awesome-seedance-2.5-api-prompts) — Curated Seedance 2.5 API guide, prompts, camera controls, and video generation examples
+- [awesome-seedance-motion-control-api](https://github.com/Anil-matcha/awesome-seedance-motion-control-api) — Seedance 2 & 2.5 Motion Control API guide — recast a performance video with new performers while preserving motion, camera, and location
 
 - [Awesome Claude Fable 5](https://github.com/Anil-matcha/awesome-claude-fable-5) — Curated real-world use cases, tutorials, and benchmarks for Claude Fable 5 — access exclusively via MuAPI
 - [Flux-3-Dev-API](https://github.com/Anil-matcha/Flux-3-Dev-API) — Python wrapper for Black Forest Labs' FLUX 3 (Dev variant) — text-to-image, image-to-image, text-to-video, image-to-video
