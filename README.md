@@ -37,6 +37,7 @@ Here is a comprehensive guide on using Seedance 2.0 API https://medium.com/@anil
 - [Wan-3.0-API](https://github.com/Anil-matcha/Wan-3.0-API) — Python SDK and MCP server for Wan 3.0-compatible text-to-video, image-to-video, and reference-to-video workflows.
 - [Seedance-2.5-API](https://github.com/SamurAIGPT/Seedance-2.5-API) — Python wrapper for the Seedance 2.5 API — text-to-video, image-to-video, character consistency
 - [Seedance-3-API](https://github.com/Anil-matcha/Seedance-3-API) — companion project for the next Seedance API generation on MuAPI.
+- [awesome-seedance-3-api-prompts](https://github.com/SamurAIGPT/awesome-seedance-3-api-prompts) — Seedance 3 prompt library and integration status.
 - [seedance-2-mcp](https://github.com/Anil-matcha/seedance-2-mcp) — Focused MCP server for Seedance 2 from Claude, Cursor, and other AI assistants
 - [seedance-2.5-mcp](https://github.com/Anil-matcha/seedance-2.5-mcp) — Focused MCP server for Seedance 2.5 Preview with 720p/480p route selection
 
